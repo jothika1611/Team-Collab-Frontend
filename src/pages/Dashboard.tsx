@@ -49,7 +49,6 @@ const Dashboard = () => {
   const todoCount = myTasks.filter(t => t.status === 'TODO').length;
   const inProgressCount = myTasks.filter(t => t.status === 'IN_PROGRESS').length;
   const doneCount = myTasks.filter(t => t.status === 'DONE').length;
-  const reviewCount = myTasks.filter(t => t.status === 'IN_REVIEW').length;
 
   const adminTodoCount = allTasks.filter(t => t.status === 'TODO').length;
   const adminInProgressCount = allTasks.filter(t => t.status === 'IN_PROGRESS').length;
